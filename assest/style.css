@@ -5,13 +5,11 @@ body {
   color: white;
   font-family: 'Merriweather', serif;
 }
-
-
 .h1,h2 {
   font-size: 2rem;
   color:orange;
 }
-
+/*css style for index about me */
 .about-me {
   margin-top: 4rem;
   margin-bottom: 20rem;
@@ -23,23 +21,26 @@ body {
 hr {
   background-color: white;
 }
+/*my oicture style inn= index file*/
 .MyPicture {
   height: 200px;
   width: 150px;
 }
+/* portfolio image css*/
 .img {
   height: 350px;
   width: 350px;
   margin-right: 1rem;
   margin-left: 1rem;
 }
-
+/*footer part of all pages */
 footer {
   background-color: #343a40;
   height: 4rem;
   padding: 18px;
   border-top: rgb(19, 187, 4) 0.5rem solid;
 }
+/*is use gor git and linkhub icon in all pages*/
 .icon {
 	width: 30px;
 	height: 30px;
