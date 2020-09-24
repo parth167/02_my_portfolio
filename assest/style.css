@@ -1,7 +1,7 @@
 body {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../images/proto_back_background_1.wide.jpeg");
+  background-image: url("/assest/images/proto_back_background_1.wide.jpeg");
   color: white;
   font-family: 'Merriweather', serif;
 }
@@ -16,7 +16,7 @@ body {
   margin-top: 4rem;
   margin-bottom: 20rem;
   float: left;
-  background-image: url("../images/portfolio-background3.jpg");
+  background-image: url("/assest/images/portfolio-background3.jpg");
   background-color:#343a40;
   color:white;
 }
