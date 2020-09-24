@@ -1,38 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTECT</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contect</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assest/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</head>
-<body>
-     <!-- Nav bar starts here -->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <h1 class="h1">Parth Patel</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="./contect.html"> Contact</a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html"> Portfolio </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./index.html"> About </a>
-            </li>
-          </ul>
+  </head>
+  <body>
+    <!-- Nav bar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <h1 class="h1">Parth Patel</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./contect.html"> Contact</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html"> Portfolio </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./index.html"> About </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Nav bar ends here -->
+
+    <!-- main contact form starts here -->
+    <div class="container">
+      <div class="row">
+        <div class="rounded col-md-8 about-me py-2 mx-2">
+          <h2 class="h2 mt-4 mx-2">Contact</h2>
+          <hr />
+    <!-- form starts here -->
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" class="form-control" placeholder="Name"/>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" class="form-control" placeholder="Email"/>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+               <textarea id="message" rows="4" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <!-- button start here -->
+            <button class="btn btn-primary">Submit</button>
+            <!-- button end here -->
+          </form>
+    <!-- form end here -->      
         </div>
-      </nav>
-      <!-- Nav bar ends here -->    
-    
-</body>
+      </div>
+    </div>
+    <!-- main sections ends here -->
+    <!-- footer starts here -->
+    <footer class="fixed-bottom footer">
+      <p class="text-center mx-4">
+        &copy; Copyright 2020 Parth Patel
+        <a  href="https://github.com/parth167"><img class="icon" src="/assest/images/github-128.png" alt="GitHub Profile"></a>
+        <a  href="https://www.linkedin.com/in/parth-patel-4725381b5/ "><img class="icon" src="/assest/images/square-linkedin-128.png" alt="LinkedIn Profile"></a>
+      </p>
+      
+    </footer>
+    <!-- footer end here -->
+  </body>
 </html>
