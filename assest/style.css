@@ -1,0 +1,55 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/proto_back_background_1.wide.jpeg");
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+
+.h1,h2 {
+  font-size: 2rem;
+  color:orange;
+}
+.Myname{
+  font-size:2em;
+ 
+}
+.about-me {
+  margin-top: 4rem;
+  margin-bottom: 20rem;
+  float: left;
+  background-image: url("../images/portfolio-background3.jpg");
+  background-color:#343a40;
+  color:white;
+}
+hr {
+  background-color: white;
+}
+.MyPicture {
+  height: 200px;
+  width: 150px;
+}
+
+.img {
+  height: 350px;
+  width: 350px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+footer {
+  background-color: #343a40;
+  height: 4rem;
+  padding: 18px;
+  border-top: rgb(19, 187, 4) 0.5rem solid;
+}
+.icon {
+	width: 30px;
+	height: 30px;
+	color: none;
+	border-right: none;
+}
+
+
+
