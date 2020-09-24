@@ -27,3 +27,22 @@ hr {
   height: 200px;
   width: 150px;
 }
+.img {
+  height: 350px;
+  width: 350px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+footer {
+  background-color: #343a40;
+  height: 4rem;
+  padding: 18px;
+  border-top: rgb(19, 187, 4) 0.5rem solid;
+}
+.icon {
+	width: 30px;
+	height: 30px;
+	color: none;
+	border-right: none;
+}
