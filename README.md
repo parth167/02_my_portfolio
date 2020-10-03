@@ -29,6 +29,6 @@
 
 # Screen Shot of index page
 
-![screen shot](https://github.com/parth167/02_my_portfolio/blob/master/assest/images/about%20me.png )
+![screen shot](https://github.com/parth167/02_my_portfolio/blob/master/assest/images/about-me.png )
 
 * Thanks for your time,and give me some feedbackit will help me to improve my knowledge.
